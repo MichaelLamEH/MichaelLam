@@ -1,0 +1,29 @@
+body {
+  background: orange;
+}
+header {
+	background-color: black;
+	color: orange;
+	height: 50px;
+	margin-bottom: 5px;
+	margin-top: 25px;
+}
+h1 {
+	text-align: center;
+}
+footer {
+	background-color: black;
+	color: orange;
+	height: 50px;
+	margin-top: 150px;
+	margin-bottom: 25px;
+}
+fieldset {
+	width: 250px;
+	margin-left: 550px;
+	margin-top: 50px;
+	background-color: lightblue;
+}
+a {
+	margin-left: 570px;
+}

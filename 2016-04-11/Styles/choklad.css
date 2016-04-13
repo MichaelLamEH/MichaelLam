@@ -1,0 +1,91 @@
+header, section, footer, aside, nav, aritcle, figure, figcaption{
+	display:block;
+}
+
+body {
+  background-color: #fefefe; /*ljusgrå bakgrund*/
+  color: #666; /*grå text*/
+  /*background-image: url('../images/kaka.png'); */
+  /*background-position: center;*/
+  background-repeat: repeat-x;
+  background-repeat: no-repeat;
+  /*background-size: 600px; */
+  font-family:Georgia,'Times New Roman', serif;
+  line-height: 1.4em; /*radavstånd*/
+  /*margin: 0; samma som där nere*/ 
+}
+#wrapper{ /*det id som kapslar in hela body*/
+   width:900px; 
+   background-color:#401201; /*chokladbrun*/
+   margin: 20px auto 20px auto;
+   margin: 20px auto; /* samma som raden ovan*/
+}
+header{
+	height: 150px;
+	background-image: url('../images/kaka.png');
+	border-bottom-left-radius: 40px 20px;
+	/*background-repeat: no repeat;*/
+}
+h1{
+    text-indent:-9999px; /*tar bort rubriken ur bild*/
+	width:900px;
+	height:150px;
+	margin:0px;
+}
+article{
+	clear: both;
+    width: 100%;
+}
+nav, footer{
+	clear:both;
+	color: magenta;
+	background-color: #592202;
+	height: 30px; 
+}
+figure{
+	width: 235px;
+	height: 200px;
+	float: left;
+	padding: 5px;
+	border: 6px solid #eee;
+	background-color: #d98c71;
+	border-radius: 15px;
+}
+section.courses {
+	width: 640px;
+	border-right: 1px solid white;
+	padding-right: 20px;
+	float: left;
+}
+figcaption{
+	font-size: 0.9rem;
+	text-align: right;
+}
+aside{
+	width:200px;
+	float: left;
+	padding: 0 0 0 20px; 
+}
+aside section a{
+	display: block;
+	padding: 10px; 
+	border-bottom: 1px solid white;
+}
+aside section a:hover {
+	color: hotpink;
+}
+nav ul{
+	margin:0;
+	padding: 5px 0; /*uppe/nere samt höger/vänster*/
+ /*samma sak/klockan*/
+}
+nav ul li {
+   display: inline; /*gör att elementen hamnar efter varandra*/
+   margin-right: 50px;   
+}
+nav ul li a{
+	color: #eee;
+}
+nav ul li a:hover {
+	color: black;
+}

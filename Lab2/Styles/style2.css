@@ -1,0 +1,23 @@
+body {
+	background-color: gray;
+}
+body {color: black;
+}
+h1 {
+	color: silver;
+}
+p {
+        color: black;
+}
+ul {
+        color: black;
+}
+table {
+	background-color: purple;
+}
+th {
+	text-transform: uppercase;
+}
+.red {
+	background-color: gold;
+}

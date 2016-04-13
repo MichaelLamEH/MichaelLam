@@ -1,0 +1,92 @@
+﻿<!doctype html>
+<html>
+<head>
+  <title>Varukorgen</title>
+  <meta charset=utf-8>
+  <meta name="desription" content="lab3">
+  <meta name="keywords" content="Basket,Basketskor">
+  <meta name="author" content="Michael Lam">
+  <link href="styles/andra.css" rel="stylesheet"/>
+
+</head>
+
+<body>
+<div class="header-footer">
+<header>
+<h1>Kundvagn</h1>
+</header>
+</div>
+  <table>
+      <tr>
+         <th>Produkt</th>
+         <th>Namn</th>
+		 <th>Antal</th>
+		 <th>Ta bort</th>
+         <th>Summa:</th>
+	 </tr>
+        <tr class="red">
+            <td> <img src="images/kbskor.jpg" width="50" height="50" alt="KB-Skor"> </td>
+            <td>KB-Skor</td>
+            <td><input type="number" value="1" </td>
+			<td>X</td>
+            <td>999 kr</td>
+        </tr>
+        <tr class="red">
+            <td> <img src="images/kblinne.jpg" width="50" height="50" </td>
+            <td>KB Linne</td>
+            <td><input type="number" value="1" </td>
+			<td>X</td>
+            <td>399 kr</td>
+        </tr>
+        <tr class="red">
+            <td> <img src="images/basketboll.jpg" width="50" height="50" </td>
+            <td>Basketboll</td>
+            <td><input type="number" value="2" </td>
+			<td>X</td>
+            <td>398 kr</td>
+        </tr>
+    </table>
+      <table width="40%" border="2">
+        <tr class="hej">
+            <td>Antal produkter:</td>
+            <td width="100">=4</td>
+            <td>Varukostnad: 1796 kr</td>
+            <td>+ Frakt:49 kr</td>
+            <td>Totalt=1845 kr</td>
+        </tr>
+    </table>
+<fieldset>
+<legend>Beställ här</legend>
+<form action="../lab3/kvitto.html">
+<p>
+För- och efternamn: </br>
+<input type="text" name="namn" id="namn" required /> 
+</br>
+E-post:</br>
+<input type="text" name="mail" id="mail" required />
+</br>
+Leveransadress: </br>
+<input type="text" name="adress" id="adress" required /> </br>
+Välj: </br>
+<select name="Betalsätt" id="Betalsätt">
+<option>Betalsätt</option>
+<option>Visa</option>
+<option>Mastercard</option>
+<option>Faktura</option>
+</select> </br>
+</br>
+Jag accepterar <a href="låtsasvillkor" >villkoren</a> 
+<input type="checkbox" name="Villkor" id="Villkor"> </br>
+</br>
+<input type="submit" value="Beställ">
+</p>
+</form>
+</fieldset>
+<div class="header-footer">
+<footer>
+<a href="../lab3/kvitto.html">Michael Lam</a> 
+</footer>
+</div>
+</body>
+</html>
+</!doctype html>
