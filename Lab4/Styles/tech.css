@@ -1,0 +1,135 @@
+header, section, footer, aside, nav, aritcle, figure, figcaption, .article2{
+	display:block;
+}
+body {
+	background-color: black;
+	color: black;
+	height: 800px;
+}
+header{
+	border: 2px white;
+	height: 180px;
+	background-color: black;
+	background-image: url('../images/logga.png');
+	border-bottom-left-radius: 40px 20px;
+	background-repeat: no-repeat;
+	background-size: 340px;
+	background-position: left;
+}
+article {
+	float: left;
+	padding-bottom: 100px;
+}
+ aside{
+ 	background-color: white;
+	float: left;
+	width: 233px;
+    height: 600px; 
+	margin-top: 15px;
+	}
+aside section{
+	float: left;
+		display: block;
+	padding: 10px; 
+	border-bottom: 1px solid black;
+	text-align: center;
+}
+footer {
+	clear:both;
+	background-color: lightblue;
+	height: 100px;
+	margin-top: 300px;
+}
+nav ul {
+	margin:0;
+	padding: 5px 0;
+    margin-left: 400px;
+}
+nav ul li {
+   margin-right: 50px;   
+   float: left;
+   margin-top: 85px;
+}
+header img {
+	margin-top: 25px;	
+}
+nav ul li a{
+	color: white;
+}
+figcaption {
+	color: white;
+	text-align: right;
+}
+.article2 {
+	margin-top: 10px;
+}
+fieldset{
+	        background-color: solid lightblue;
+			color: white;
+	        display: inline-block;
+            float: auto;
+			width: 150px auto;
+			margin: auto;
+			border: 5px;
+			margin-top: 5px;
+}
+#wrapper{
+	        background-color: solid black;
+            max-width: auto;
+            border: 3px white;
+			margin-left: 100px;
+}
+table {
+	float: left;
+	margin-top: 70px;
+	margin-left: 100px;
+	border: 2px solidblack;
+	width: 750px;
+	height: 400px;
+	background-color: #0099ff;
+}
+th {
+  text-transform: uppercase;
+}
+td {	text-align: center;
+}
+tr {
+	border: 2px solid black;
+}
+table, td, th, tr { 
+  height: 50px;
+  border: 1px solid white;
+}
+fieldset.field2 {
+   background-color: lightblue;
+   color: black;
+   width: 220px;
+   margin-left: 70px;
+   margin-top: 140px;
+}
+fieldset.field3 {
+	background-color: lightblue;
+	color: black;
+	width: 500px;
+	margin-left: 400px;
+	text-align: center;
+}
+h1 {
+	text-align: center;
+	color: white;
+}
+.skugga {
+text-shadow: 4px 5px 3px rgba(0,0,0, 0.5);
+font-family: Georgia, 'Times new roman', Serif;
+font-size: 15px;
+color: #000;
+}
+h2:hover {
+	color: #0099ff;
+}
+a:hover {
+	color: #0099ff;
+}
+h1:hover {
+	color: #0099ff;
+}
